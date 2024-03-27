@@ -1,4 +1,4 @@
-  // When the document is ready
+// When the document is ready
 document.addEventListener("DOMContentLoaded", function() {
 // Function to update the navigation state
     function updateNavigation() {
