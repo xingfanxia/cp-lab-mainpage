@@ -1,0 +1,123 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+    background: #000; /* Assuming a dark theme like in the image */
+}
+
+.navbar {
+    background: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 50px 100px;
+    box-sizing: border-box;
+    border-bottom: none; /* Removes bottom border if any */
+    border-bottom: none; /* Ensures no bottom border */
+    z-index: 1000;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img {
+    height: 50px; /* Adjust as needed */
+}
+
+.navbar-logo h1 {
+    font-family: 'Aquire', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    margin-left: 10px;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1em;
+    padding: 5px 0;
+    transition: color 0.3s;
+    position: relative; /* Added for positioning the pseudo-element */
+}
+
+.navbar-links a:hover::after, .navbar-links a.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: -10px; /* Adjust the space between the text and the underline */
+    left: 0;
+}
+
+.navbar-links a:hover, .navbar-links a.active {
+    text-decoration: none;
+}
+
+/* Rest of your CSS */
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: enter;
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+#home {
+    background: url('../img/background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    background-position: center 300px;
+}
+#about, #contact {
+    background: #111; /* Slightly lighter than pure black for contrast */
+}
+h1 {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+p {
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+.cta-button {
+    padding: 10px 25px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s, color 0.3s;
+}
+.cta-button:hover {
+    background-color: white;
+    color: black;
+}
+  /* Additional styles for About and Contact sections */
+h2 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+.title {
+    font-family: 'Aquire';
+}
+.subtitle {
+    font-family: 'Titillium Web';
+}
+.cta-button {
+    font-family: 'Titillium Web';
+}
+.navbar {
+    font-family: 'roboto';
+}
