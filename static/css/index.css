@@ -62,7 +62,6 @@ body, html {
     text-decoration: none;
 }
 
-/* Rest of your CSS */
 section {
     min-height: 100vh;
     display: flex;
@@ -73,12 +72,14 @@ section {
     padding: 60px 20px;
     box-sizing: border-box;
 }
+
 #home {
     background: url('../img/background.png') no-repeat center center fixed;
     background-size: cover;
     color: white;
     background-position: center 250px;
 }
+
 .main-section {
     display: flex;
     justify-content: center;
@@ -88,18 +89,22 @@ section {
     box-sizing: border-box;
     margin-top: -350px;
 }
+
 #about, #contact {
     background: #111; /* Slightly lighter than pure black for contrast */
 }
+
 h1 {
     font-size: 4em;
     margin-bottom: 0.5em;
 }
+
 p {
     font-size: 1.2em;
     margin-top: 0;
     margin-bottom: 2em;
 }
+
 .cta-button {
     padding: 10px 25px;
     border: 2px solid white;
@@ -108,25 +113,30 @@ p {
     font-size: 1.2em;
     transition: background-color 0.3s, color 0.3s;
 }
+
 .cta-button:hover {
     background-color: white;
     color: black;
 }
-  /* Additional styles for About and Contact sections */
+
 h2 {
     font-size: 3em;
     color: #fff;
     margin-bottom: 0.5em;
 }
+
 .title {
     font-family: 'Aquire';
 }
+
 .subtitle {
     font-family: 'Titillium Web';
 }
+
 .cta-button {
     font-family: 'Titillium Web';
 }
+
 .navbar {
     font-family: 'roboto';
 }
