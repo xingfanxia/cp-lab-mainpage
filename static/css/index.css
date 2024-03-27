@@ -77,7 +77,16 @@ section {
     background: url('../img/background.png') no-repeat center center fixed;
     background-size: cover;
     color: white;
-    background-position: center 300px;
+    background-position: center 250px;
+}
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: enter;
+    box-sizing: border-box;
+    margin-top: -350px;
 }
 #about, #contact {
     background: #111; /* Slightly lighter than pure black for contrast */
