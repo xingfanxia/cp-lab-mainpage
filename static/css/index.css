@@ -76,9 +76,9 @@ section {
 
 #home {
     background: url('../img/background.png') no-repeat center center fixed;
-    background-size: contain;
+    background-size: 100% auto;
     color: white;
-    background-position: center 350px;
+    background-position: center 50%;
 }
 
 .main-section {
