@@ -32,7 +32,8 @@ body, html {
 
 .navbar-logo h1 {
     font-family: 'Aquire', sans-serif;
-    font-size: 1.5em;
+    font-size: 2em;
+    font-weight: lighter;
     color: white;
     margin-left: 10px;
 }
@@ -75,9 +76,9 @@ section {
 
 #home {
     background: url('../img/background.png') no-repeat center center fixed;
-    background-size: cover;
+    background-size: contain;
     color: white;
-    background-position: center 250px;
+    background-position: center 350px;
 }
 
 .main-section {
@@ -96,7 +97,7 @@ section {
 
 h1 {
     font-size: 4em;
-    margin-bottom: 0.5em;
+    /* margin-bottom: 0.5em; */
 }
 
 p {
@@ -127,6 +128,8 @@ h2 {
 
 .title {
     font-family: 'Aquire';
+    font-weight: lighter;
+    font-size: 7em;
 }
 
 .subtitle {
