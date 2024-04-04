@@ -1,9 +1,16 @@
-body, html {
+html {
+    height: 100%; /* Ensure the html element covers the full height */
+}
+
+body {
+    min-height: 100%; /* Ensure the body at least covers the full height */
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
     scroll-behavior: smooth;
-    background: #000; /* Assuming a dark theme like in the image */
+    background: url('../img/background.png') no-repeat center center fixed; 
+    background-size: cover; /* This will make sure your background covers the entire content */
+    color: white;
 }
 
 body {
@@ -79,13 +86,7 @@ section {
 }
 
 #home {
-    background: url('../img/background.png');
-    background-size: cover; /* This will make sure your background covers the entire element */
-    background-position: center; /* This centers the background image */
-    background-repeat: no-repeat; /* This prevents the background image from repeating */
-    background-attachment: fixed;
-    background-size: 100% auto;
-    color: white;
+
     /* background-position: center 120%; */
 }
 
